@@ -10,6 +10,11 @@
   display: inline-block;
 }
 
+a {
+  font-size: 24px;
+  font-family: Moderat;
+}
+
 a:hover {
   outline: 0;
 }
@@ -58,6 +63,7 @@ a:hover {
   z-index: 1;
   display: inline-block;
   transition: color 0.3s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+  font-size: 24px;
 }
 
 .button-text.btn_text_secondary {
